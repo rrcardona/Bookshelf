@@ -20,6 +20,11 @@ namespace Bookshelf.Models
         public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
 
+        [ForeignKey("Author")]
+        public int? AuthorID { get; set; }
+        //? allows to return null
+        public virtual Author Author { get; set; }
+
 
     }
 }

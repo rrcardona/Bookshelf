@@ -7,13 +7,13 @@ namespace Bookshelf.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddAuthor : IMigrationMetadata
+    public sealed partial class addAuthors : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddAuthor));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addAuthors));
         
         string IMigrationMetadata.Id
         {
-            get { return "201710120031406_AddAuthor"; }
+            get { return "201710122339378_addAuthors"; }
         }
         
         string IMigrationMetadata.Source
